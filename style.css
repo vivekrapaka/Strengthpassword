@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     background-color: rgb(64, 62, 60);
+     justify-content: center;
+}
+.input-box{
+    max-width: 90%;
+    width: 400px;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 60px;
+    padding: 0,20px;
+    border: 1px solid #0e0e0e;
+    outline: none;
+    background-color: transparent;
+    color:#0e0e0e;
+}
+.input-box button{
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 1%;
+}
+ img{
+    width: 40px;
+    margin-bottom: 2%;
+    display: inline;
+}
+#message{
+    font-size: 20px;
+    color: aliceblue;
+    display: none;
+}
+::placeholder{
+    font-size: 23px;
+    margin-right: 20%;
+}
